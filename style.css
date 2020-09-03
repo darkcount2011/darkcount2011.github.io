@@ -1,6 +1,8 @@
 
     body {
         background-color: #191919;
+        font-family: rockwell;
+        color: gainsboro;
     }
     #wrapper {
         background-color: #26242c;
@@ -36,7 +38,7 @@
   
     
     .uppertextfield {
-        color: gainsboro;
+        
         width: 1050px;
         margin: 20px 40px 10px 40px;
         background-color: #323038;
@@ -46,9 +48,9 @@
         float: left;
     }
     .middletextfield {
-        color: gainsboro;
+        
         width: 1000px;
-        margin: 20px 40px 10px 40px;
+        margin: 20px 40px 20px 25px;
         background-color: #323038;
         border-color: #707070;
         border-width: 1px;
@@ -70,5 +72,25 @@
         color: gainsboro;
 
 
+    }
+    a:link, a:visited {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: grey;
+      }
+    .picturefield {
+        color: gainsboro;
+        width: 340px;
+        margin: 20px 40px 10px 40px;
+        background-color: #323038;
+        border-color: #707070;
+        border-width: 1px;
+        box-sizing: border-box;
+        float: left;
     }
   
