@@ -28,7 +28,7 @@
         color: #666666;
         background-color: #191919;
         margin: -60px 0px 0px 0px;
-        width: 310px;
+        width: 400px;
         height: 70px;
         text-align: center;
         padding: 15px 0px 0px 0px;
@@ -92,5 +92,27 @@
         border-width: 1px;
         box-sizing: border-box;
         float: left;
+       
     }
-  
+   
+    .zoom:hover {
+        animation-name: zoom;
+        animation-duration: 300ms;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+    }
+    
+    @keyframes zoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.5);
+            z-index: 2;
+        }
+    }
+    .tabless td, th {
+        border: 1px solid gainsboro;
+    }
+
+    
