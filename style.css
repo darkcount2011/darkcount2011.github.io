@@ -19,6 +19,7 @@ body {
         border-width: 1.5px;
         border-style:groove;
         border-top-color: #707070;
+        
 
 
         
@@ -34,6 +35,7 @@ body {
         padding: 15px 0px 0px 0px;
         box-sizing: border-box;
         float: left;
+        
     }
   
     
@@ -168,5 +170,19 @@ body {
         float:center;
         
     }
-
+    #grade {
+        font-size:20px;
+        color:gainsboro;
+        border: 1px solid rgb(180, 163, 163); 
+    }
+    .faqfield {
+        font-size:20px;
+        width: 1000px;
+        margin: 20px 40px 20px 25px;
+        background-color: #323038;
+        border-color: #707070;
+        border-width: 1px;
+        box-sizing: border-box;
+        float: left;
+    }
     
