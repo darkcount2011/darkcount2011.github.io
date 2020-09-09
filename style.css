@@ -11,14 +11,10 @@ body {
         float: left;
         box-sizing: border-box;}
     #upperborder {
-        margin-top:-10px;
-        margin-left:-10px;
-        margin-right:-10px;
+        width: 100%;
         padding: 50px 10px 10px 10px;
-        background-color: #191919;
-        border-width: 1.5px;
-        border-style:groove;
-        border-top-color: #707070;
+        background-color:  #323038;
+        border-bottom: 1.5px solid #707070;
         
 
 
@@ -27,9 +23,9 @@ body {
     
     .upperelementbox {
         color: #666666;
-        background-color: #191919;
+        background-color:  #323038;
         margin: -60px 0px 0px 0px;
-        width: 400px;
+        width: 25%;
         height: 70px;
         text-align: center;
         padding: 15px 0px 0px 0px;
@@ -92,9 +88,20 @@ body {
         background-color: #323038;
         border-color: #707070;
         border-width: 1px;
-        box-sizing: border-box;
+        box-sizing: border-box;  
         float: left;
        
+    }
+    .picturesmall
+    {
+        color: gainsboro;
+        width: 300;
+        margin: 5px;
+        background-color: #323038;
+        border-color: #707070;
+        border-width: 1px;
+        box-sizing: border-box;  
+        float: right;
     }
     .hide {
         display:none;
