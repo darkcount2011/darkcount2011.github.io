@@ -7,12 +7,13 @@ body {
     #wrapper {
         background-color: #26242c;
         width: 1050px;
-        margin: 20px 40px 10px 300px;
-        float: left;
+        margin: auto;
+        float: center;
         box-sizing: border-box;}
     #upperborder {
         width: 100%;
-        padding: 50px 10px 10px 10px;
+        margin: -10px 0px 0px 0px;
+        padding: 60px 10px 10px 10px;
         background-color:  #323038;
         border-bottom: 1.5px solid #707070;
         
@@ -25,7 +26,7 @@ body {
         color: #666666;
         background-color:  #323038;
         margin: -60px 0px 0px 0px;
-        width: 25%;
+        width: 20%;
         height: 70px;
         text-align: center;
         padding: 15px 0px 0px 0px;
@@ -50,8 +51,7 @@ body {
         width: 1000px;
         margin: 20px 40px 20px 25px;
         background-color: #323038;
-        border-color: #707070;
-        border-width: 1px;
+        border: 1px solid #707070;
         box-sizing: border-box;
         float: left;
     }
