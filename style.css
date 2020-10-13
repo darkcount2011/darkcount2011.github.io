@@ -8,7 +8,7 @@ body {
         background-color: #26242c;
         width: 1050px;
         margin: auto;
-        float: left;
+        float: center;
         box-sizing: border-box;
     }
     #upperborder {
@@ -39,20 +39,25 @@ body {
     
     .uppertextfield {
         
-        width: 1000px;
+        width: 950px;
         margin: 20px 40px 10px 40px;
         background-color: #323038;
         
-        border-width: 1px;
+        
         box-sizing: border-box;
         float: left;
     }
+    .smallHeader {
+        font-size: 20px;
+        float: center;
+    }
     .middletextfield {
         
-        width: 1000px;
+        width: 950px;
         margin: 20px 40px 20px 25px;
+        padding: 5px 10px 20px 10px;
         background-color: #323038;
-        float: left;
+        float: center;
     }
     #sideline {
         padding: 10px 10px 10px 20px;
@@ -68,7 +73,7 @@ body {
         font-size: 24px;
         text-align: center;
         color: gainsboro;
-        float: left;
+        float: center;
 
 
     }
@@ -90,7 +95,7 @@ body {
         border-color: #707070;
         border-width: 1px;
         box-sizing: border-box;  
-        float: left;
+        float: center;
        
     }
     .picturesmall
@@ -102,7 +107,7 @@ body {
         border-color: #707070;
         border-width: 1px;
         box-sizing: border-box;  
-        float: right;
+        float: left;
     }
     .hide {
         display:none;
@@ -191,6 +196,6 @@ body {
         border-color: #707070;
         border-width: 1px;
         box-sizing: border-box;
-        float: left;
+        float: center;
     }
     
