@@ -1,22 +1,8 @@
-class Animal {
-    constructor(name, legs, sound) {
-        this.name = name;
-        this.legs = legs;
-        this.sound = sound;
-    }
-    getName() {
-        return this.name;
-    }
-    getLegs() {
-        return this.legs;
-    }
-    getSound() {
-        return this.sound;
-    }
+const productPrices = [2.10, 4.99, 5.60, 0.40, 5.44, 7.33, 2.33, 2.49, 2.10];
+for (let i = 0; i > productPrices.length; i++) {
+    let countUp = 0;
+    let maxCount = countUp + i;
+    console.log(maxCount);
 }
-const animals = [
-    new Animal('dog', 4, 'woof'),
-    new Animal('cat', 4, 'meow')
-];
-animals.forEach((animal) => console.log('A %s has %s legs and goes %s!', animal.getName(), animal.getLegs(), animal.getSound()));
+console.log("hoi");
 //# sourceMappingURL=app.js.map

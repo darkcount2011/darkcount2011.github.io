@@ -1,42 +1,10 @@
-class Animal
-{
-    private readonly name: string
-    private readonly legs: number
-    private readonly sound: string
+const productPrices:number[] = [2.10, 4.99, 5.60, 0.40, 5.44, 7.33, 2.33, 2.49, 2.10];
 
-    public constructor(name: string, legs: number, sound: string)
-    {
-        this.name = name
-        this.legs = legs
-        this.sound = sound
-    }
-
-    public getName(): string
-    {
-        return this.name
-    }
-
-    public getLegs(): number
-    {
-        return this.legs
-    }
-
-    public getSound(): string
-    {
-        return this.sound
-    }
+function getSum(){
+for (let i:number=0; i>productPrices.length; i++) {
+    let countUp:number = 0;
+    countUp += countUp[i];
+    
 }
-
-const animals = [
-     new Animal('dog', 4, 'woof'),
-     new Animal('cat', 4, 'meow')
-]
-
-animals.forEach(
-    (animal) => console.log(
-        'A %s has %s legs and goes %s!',
-        animal.getName(),
-        animal.getLegs(),
-        animal.getSound()
-    )
-)
+}
+console.log(getSum());
